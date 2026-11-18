@@ -1,0 +1,85 @@
+{
+  "title": "Why our sourdough takes 36 hours",
+  "start": "dark",
+  "caption": "Why our sourdough takes 36 hours: we feed the starter at 7pm, mix and fold the next morning, rest it 18 hours in the fridge, and bake at 7am on day three.",
+  "cta": {
+    "keyword": "BREAD",
+    "dm": "Here's tomorrow's bake list"
+  },
+  "scenes": [
+    {
+      "type": "text",
+      "lines": [
+        "Why our sourdough / takes *36 hours.*"
+      ]
+    },
+    {
+      "type": "flow",
+      "lines": [
+        "Day one, 7pm: / we *feed the starter.*",
+        "Next morning: / mix, / *fold four times.*",
+        "Then *18 hours* / cold in the fridge.",
+        "Day three, 7am: / *into the oven.*"
+      ],
+      "props": {
+        "title": "One loaf, start to finish",
+        "items": [
+          {
+            "n": "7pm",
+            "b": "Feed the starter",
+            "sub": "Day one",
+            "cue": "feed"
+          },
+          {
+            "n": "9am",
+            "b": "Mix and fold",
+            "sub": "Four folds by 1pm",
+            "cue": "fold"
+          },
+          {
+            "n": "18h",
+            "b": "Cold proof",
+            "sub": "Overnight in the fridge",
+            "cue": "18"
+          },
+          {
+            "n": "7am",
+            "b": "Bake",
+            "sub": "Day three",
+            "cue": "oven"
+          }
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "lines": [
+        "That's why / it's *gone by noon.*"
+      ]
+    },
+    {
+      "type": "cta",
+      "lines": [
+        "Comment *BREAD* / and I'll DM you / *tomorrow's bake list.* [+1.6]"
+      ],
+      "props": {
+        "keyword": "BREAD",
+        "dm": "Here's tomorrow's bake list",
+        "comments": [
+          [
+            "AL",
+            "#ec4899",
+            "ana.loves.food",
+            "Do you deliver?"
+          ],
+          [
+            "TW",
+            "#14b8a6",
+            "tom.wu",
+            "Worth the wait"
+          ]
+        ]
+      }
+    }
+  ]
+}

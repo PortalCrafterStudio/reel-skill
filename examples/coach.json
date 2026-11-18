@@ -1,0 +1,15 @@
+{
+  "title": "You're not lazy, your program is random",
+  "brand": {"name": "Ironline Coaching", "handle": "@ironline.coach", "accent": "#f97316", "initial": "I"},
+  "caption": "You're not lazy. Your program is random. Same weights for months and rest only when you're wrecked won't move you. Small jumps every week and planned rest days will.",
+  "cta": {"keyword": "PLAN", "dm": "Here's your 4-week starter plan"},
+  "scenes": [
+    {"type": "text", "lines": ["You're not *lazy.*", "Your program / is *random.*"]},
+    {"type": "compare", "lines": ["Random workouts? / *Same weights* / for months, / rest when you're *wrecked.*", "A real program: / *small jumps* / every week, / *planned* rest days."],
+     "props": {"left": "Random workouts", "right": "A real program", "rows": [{"l": "Same weights for months", "r": "Small jumps every week", "lc": "same", "rc": "small"}, {"l": "Rest when you're wrecked", "r": "Planned rest days", "lc": "wrecked", "rc": "planned"}]}},
+    {"type": "flow", "lines": ["Monday squat, / Wednesday press, / Friday deadlift, / *Sunday off.*"],
+     "props": {"title": "Your week 1", "items": [{"n": "MON", "b": "Squat", "sub": "5 x 5, add 2.5 kg each week", "cue": "monday"}, {"n": "WED", "b": "Press", "sub": "5 x 5, add 1 kg each week", "cue": "wednesday"}, {"n": "FRI", "b": "Deadlift", "sub": "3 x 5, add 5 kg each week", "cue": "friday"}, {"n": "SUN", "b": "Rest", "sub": "Walk, stretch, sleep", "cue": "sunday"}]}},
+    {"type": "cta", "lines": ["Comment *PLAN* / and I'll DM you / your *first four weeks.* [+1.6]"],
+     "props": {"keyword": "PLAN", "dm": "Here's your 4-week starter plan", "comments": [["JR", "#0ea5e9", "jess.runs", "Do you coach online?"], ["MK", "#a855f7", "mike.lifts", "Starting Monday"]]}}
+  ]
+}

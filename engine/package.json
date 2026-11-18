@@ -1,0 +1,9 @@
+{
+  "name": "reel-skill-engine",
+  "private": true,
+  "type": "module",
+  "description": "Renders reel frames from engine.html with headless Chromium",
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}
